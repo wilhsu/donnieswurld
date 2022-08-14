@@ -1,0 +1,106 @@
+
+
+.bigcon{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.content{
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.spin{
+    /* width: 25%; */
+    padding: 20px;
+    margin: 15px;
+}
+
+#spin{
+    width: 95%;
+    display: fixed;
+    /* top: 50%; */
+    /* left: 50%;  */
+    transform: translate(0, -10%);
+    /* margin-left: auto;
+    margin-right: auto;
+    top: 100px; */
+    z-index: 100;
+}
+
+#fingur{
+    width: 30%;
+    display: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(100%, -80%);
+    z-index: -1;
+}
+
+.info{
+    width: 45%;
+    padding: 10px;
+    margin: 20px;
+    font-family: poppins,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#logo{
+    width: 60%;
+    top:0;
+}
+
+#saturn{
+    width: 60%;
+    padding-top: 20px;
+}
+
+#earth{
+    width: 35%;
+    padding-top: 20px;
+}
+
+#mars{
+    width: 35%;
+    padding-top: 20px;
+}
+
+#saturn:hover{
+    width: 80%;
+    transition: width .5s;
+    /* height: 35%; */
+}
+
+#earth:hover{
+    width: 45%;
+    transition: width .5s;
+}
+
+#mars:hover{
+    width:45%;
+    transition: width .5s;
+}
+
