@@ -26,13 +26,7 @@ body{
 }
 
 .photos{
-    z-index: 100;
-    width: 600px;
-    position: fixed;
-    display: block;
-    margin-top: 12%;
-    margin-left: 12%;
-    margin-right: 10%;
+    z-index: 300;
 }
 
 .con1{
@@ -56,6 +50,16 @@ body{
 
 .content{
     text-align: center;
+}
+.filmtitles{
+    z-index: 120;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 button{
@@ -103,7 +107,14 @@ button{
 }
 
 video{
+    z-index: 300;
     border-radius:20px;
+    width: 600px;
+    position: fixed;
+    display: block;
+    margin-top: 12%;
+    margin-left: 12%;
+    margin-right: 10%;
 }
 
 
