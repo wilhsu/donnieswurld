@@ -1,5 +1,5 @@
 body{
-    background-image: url(../assets/img/bg8.png);
+    background-image: url(../assets/img/bg9.png);
     background-size: cover;
 }
 
@@ -73,7 +73,9 @@ body{
 }
 
 .borderr{
-    border: solid 4px blue;
+    /* border: solid 4px blue; */
+    border: solid 5px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
     /* height: 100%; */
     border-radius: 15px;
     box-shadow: 0 0 10px white;
@@ -134,29 +136,42 @@ body{
     }
 
     .content{
-        margin-top: 80%;
+        margin-top: 85%;
         margin-bottom: 20px;
         z-index: -1000;
         position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .spin{
         padding: 0;
         margin: 0;
         width: 40%;
-        margin-top: 100px;
+
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    /* #img1, #img2{
+        width: 50%;
+    } */
+
     .info{
-        font-size: 12px;
+        font-size: 15px;
         padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-        width: 200px;
+        margin-top: 0;
+        /* margin-left: 15px;
+        margin-right: 15px; */
+        width: 100%;
+        text-align: center;
     }
 
     #textaf{
         padding: 5px;
+        margin: 15px;
+        text-align: left;
     }
 
 

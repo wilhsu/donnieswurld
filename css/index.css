@@ -17,7 +17,7 @@ html{
     display: flex;
     flex-direction: row;  
     text-align: center;
-    /* align-content: space-between; */
+    justify-content: space-evenly;
 }
 
 body{
@@ -29,15 +29,19 @@ body{
 }
 
 #saturn{
-    width: 23%;
-}
-
-#earth{
     width: 20%;
 }
 
+#earth{
+    width: 15%;
+}
+
 #mars{
-    width: 16%;
+    width: 13%;
+}
+
+#sun{
+    width: 20%;
 }
 
 #logo{
@@ -56,25 +60,29 @@ ul{
 
 li{
 	display: inline;
-	padding:4%;
+	padding:2%;
     /* transition: width 1s, height 1s; */
     /* align-items: center; */
 }
 
 #saturn:hover{
-    width: 35%;
-    transition: width .5s;
-    /* height: 35%; */
+    transform: rotate(25deg);
+    transition: transform .5s;
 }
 
 #earth:hover{
-    width: 26%;
-    transition: width .5s;
+    transform: rotate(-25deg);
+    transition: transform .5s;
 }
 
 #mars:hover{
-    width:22%;
-    transition: width .5s;
+    transform: rotate(50deg);
+    transition: transform .5s;
+}
+
+#sun:hover{
+    transform: rotate(25deg);
+    transition: transform .5s;
 }
 
     /* border-radius: 100%;
@@ -116,23 +124,26 @@ li{
         width: 50%;
     }
 
-    #saturn:hover{
+    /* #saturn:hover{
         width: 65%;
-    }
+    } */
 
     #earth{
         width: 40%;
     }
 
-    #earth:hover{
+    /* #earth:hover{
         width: 55%;
-    }
+    } */
 
     #mars{
         width: 30%;
     }
-
+/* 
     #mars:hover{
         width: 45%;
+    } */
+    #sun{
+        width: 40%;
     }
 }
